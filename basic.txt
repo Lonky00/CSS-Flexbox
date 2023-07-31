@@ -6,18 +6,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Wrap</title>
-    <link rel="stylesheet" href="./CSS/flex-direction.css">
+    <title>CSS Flow</title>
+    <link rel="stylesheet" href="./CSS/flex-flow.css">
     <link rel="stylesheet" href="./CSS/header.css">
 </head>
 <body>
 
+    
     <h1 class="menu">Menu</h1>
     <section class="container-menu flex">
         <a href="./index.html">Flexbox</a>
         <a href="./flex-direction.html">Flex Direction</a>
         <a href="./flex-wrap.html">Flex Wrap</a>
+        <a href="./flex-flow.html">Flex Flow</a>
     </section>
 
 </body>
 </html>
+ 
