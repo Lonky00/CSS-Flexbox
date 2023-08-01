@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Flow</title>
-    <link rel="stylesheet" href="./CSS/flex-flow.css">
+    <link rel="stylesheet" href="./CSS/align-itens.css">
     <link rel="stylesheet" href="./CSS/header.css">
 </head>
 <body>
@@ -21,8 +21,11 @@
         <a href="./flex-wrap.html">Flex Wrap</a>
         <a href="./flex-flow.html">Flex Flow</a>
         <a href="./justify-content.html">Justify Content</a>
+        <a href="./align-itens.html">Align Itens</a>
     </section>
 
 </body>
+</html>
+ 
 </html>
  
