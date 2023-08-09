@@ -7,11 +7,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Flow</title>
-    <link rel="stylesheet" href="./CSS/flex-flow.css">
+    <link rel="stylesheet" href="./CSS/align-itens.css">
     <link rel="stylesheet" href="./CSS/header.css">
 </head>
 <body>
 
+    
+    
+     
     
     
     <h1 class="menu">Menu</h1>
@@ -21,8 +24,17 @@
         <a href="./flex-wrap.html">Flex Wrap</a>
         <a href="./flex-flow.html">Flex Flow</a>
         <a href="./justify-content.html">Justify Content</a>
+        <a href="./align-itens.html">Align Itens</a>
+        <a href="./align-content.html"> Align Content</a>
+    </section>
+
+    <section class="container-menu flex">
+        <a href="./flex-grow.html">Flex-Grow</a>
+        <a href="flex-basis.html">Flex-Basis</a>
     </section>
 
 </body>
+</html>
+ 
 </html>
  
