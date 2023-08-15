@@ -1,9 +1,5 @@
 <!--
-flex-grow: número;
-// Basta definir um número
 
-flex-grow: 0;
-// Obedece o width do elemento ou o flex-basis.
 -->
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -11,11 +7,12 @@ flex-grow: 0;
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Flow</title>
-    <link rel="stylesheet" href="./CSS/flex-grow.css">
+    <link rel="stylesheet" href="./CSS/order.css">
     <link rel="stylesheet" href="./CSS/header.css">
 </head>
 <body>
-      
+
+    
    <h1 class="menu">Menu</h1>
     <section class="container-menu flex">
         <a href="./index.html">Flexbox</a>
@@ -35,41 +32,39 @@ flex-grow: 0;
         <a href="/order.html">Order</a>
     </section>
 
-    <h1>flex-grow: 0;</h1>
-    <section class="container ">
-        <div class="item grow0">1</div>
-        <div class="item grow0">2</div>
-        <div class="item grow0">3</div>
-    </section>
-
-    <h1>flex-grow: 1;</h1>
+    <h1>order: misturados;</h1>
     <section class="container">
-        <div class="item grow1">1</div>
-        <div class="item grow1">2</div>
-        <div class="item grow1">3</div>
+        <div class="item order2">1</div>
+        <div class="item order4">2</div>
+        <div class="item order1">3</div>
+        <div class="item order3">4</div>
     </section>
 
-    <h1>flex-grow: 2;</h1>
+    <h1>order: negativo; / flex-grow</h1>
+    <section class="container">
+        <div class="item order2 flex-grow">1</div>
+        <div class="item order-1 flex-grow">2</div>
+        <div class="item order1 flex-grow">3</div>
+        <div class="item order3 flex-grow">4</div>
+    </section>
+
+    <h1>order: valores iguais; / grow / column</h1>
     <section class="container column">
-        <div class="item grow2">1</div>
-        <div class="item grow2">2</div>
-        <div class="item grow2">3</div>
+        <div class="item order2 flex-grow">1</div>
+        <div class="item order2 flex-grow">2</div>
+        <div class="item order1 flex-grow">3</div>
+        <div class="item order1 flex-grow">4</div>
     </section>
 
-    <h1>flex-grow: 1 // contéudo largo;</h1>
-    <section class="container column-reverse">
-        <div class="item grow1">1</div>
-        <div class="item grow1">TestandoTestando2</div>
-        <div class="item grow1">3</div>
+    <h1>order: valores iguais; / grow / column</h1>
+    <section class="container column">
+        <div class="item flex-grow">1</div>
+        <div class="item order2 flex-grow">2</div>
+        <div class="item flex-grow">3</div>
+        <div class="item order-1 flex-grow">4</div>
     </section>
 
-    <h1>flex-grow: (misturado);</h1>
-    <section class="container column-reverse">
-        <div class="item grow0">1</div>
-        <div class="item grow1">TestandoTestando2</div>
-        <div class="item grow2">3</div>
-    </section>
-
+</body>
 </html>
  
 </html>
